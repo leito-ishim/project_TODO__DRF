@@ -10,5 +10,8 @@ class User(models.Model):
     email = models.EmailField('Электронная почта', max_length=64, unique=True)
     birthday_year = models.PositiveIntegerField('Год рождения', null=True)
 
+    def __str__(self):
+        return self.username
+
 
 
