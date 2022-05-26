@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     #My
     'users',
+    'todoapp',
 ]
 
 MIDDLEWARE = [
