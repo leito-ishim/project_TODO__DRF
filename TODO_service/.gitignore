@@ -1,2 +1,8 @@
 /.idea
 db.sqlite3
+*.pyc
+*.db
+*~
+.*
+*.py.bak
+/frontend/node_modules/

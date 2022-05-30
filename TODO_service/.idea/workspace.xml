@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4042a6f2-fd3b-4a11-873f-8327fe1f9cea" name="Changes" comment="complete tasks lesson 2">
-      <change afterPath="$PROJECT_DIR$/todoapp/serializers.py" afterDir="false" />
+    <list default="true" id="4042a6f2-fd3b-4a11-873f-8327fe1f9cea" name="Changes" comment="complete tasks lesson 3 expect #6 *">
+      <change afterPath="$PROJECT_DIR$/todoapp/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO_service/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO_service/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO_service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO_service/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="lesson2" />
+        <entry key="$PROJECT_DIR$/.." value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -77,7 +80,9 @@
       <workItem from="1652982700617" duration="2192000" />
       <workItem from="1653126914815" duration="4882000" />
       <workItem from="1653240783633" duration="4328000" />
-      <workItem from="1653413408920" duration="4672000" />
+      <workItem from="1653413408920" duration="4991000" />
+      <workItem from="1653571042134" duration="625000" />
+      <workItem from="1653724551417" duration="8634000" />
     </task>
     <task id="LOCAL-00001" summary="add frontend">
       <created>1652985056536</created>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653245030977</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete tasks lesson 3 expect #6 *">
+      <created>1653418443395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653418443395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,9 +127,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add frontend" />
     <MESSAGE value="complete tasks lesson 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete tasks lesson 2" />
+    <MESSAGE value="complete tasks lesson 3 expect #6 *" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete tasks lesson 3 expect #6 *" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TODO_service$TODO_run.coverage" NAME="TODO_run Coverage Results" MODIFIED="1653418107127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TODO_service$TODO_run.coverage" NAME="TODO_run Coverage Results" MODIFIED="1653919641023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
