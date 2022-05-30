@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # Others
     'rest_framework',
     'corsheaders',
+    'django_filters',
     #My
     'users',
     'todoapp',
@@ -145,3 +146,9 @@ ACCESS_CONTROL_ALLOW_ORIGIN = [
 # CORS_ORIGIN_REGEX_WHITELIST = (
 #     'http://localhost:3000',
 # )
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 100,
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}

@@ -17,13 +17,18 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from todoapp.views import ProjectModelViewSet, TODOModelViewSet
-from users.views import UserModelViewSet
+from todoapp.views import ProjectModelViewSet, TODOModelViewSet, ProjectLimitOffsetPagination, TODOLimitOffsetPagination
+from users.views import UserCustomViewSet
 
 router = DefaultRouter()
-router.register('users', UserModelViewSet)
+router.register('users', UserCustomViewSet)
 router.register('projects', ProjectModelViewSet)
 router.register('notes', TODOModelViewSet)
+
+# pagination_router = DefaultRouter()
+# pagination_router.register('Projectlimitoffset', ProjectLimitOffsetPagination)
+# pagination_router.register('TODOlimitoffset', TODOLimitOffsetPagination)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
