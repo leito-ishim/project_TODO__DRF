@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4042a6f2-fd3b-4a11-873f-8327fe1f9cea" name="Changes" comment="complete tasks lesson 3 expect #6 *">
-      <change afterPath="$PROJECT_DIR$/todoapp/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4042a6f2-fd3b-4a11-873f-8327fe1f9cea" name="Changes" comment="complete tasks lesson 4">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/TODO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserTODO.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO_service/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO_service/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO_service/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO_service/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="lesson3" />
+        <entry key="$PROJECT_DIR$/.." value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager">
     <configuration name="TODO_run" type="PythonConfigurationType" factoryName="Python">
@@ -82,7 +86,10 @@
       <workItem from="1653240783633" duration="4328000" />
       <workItem from="1653413408920" duration="4991000" />
       <workItem from="1653571042134" duration="625000" />
-      <workItem from="1653724551417" duration="8634000" />
+      <workItem from="1653724551417" duration="9439000" />
+      <workItem from="1654103111371" duration="5588000" />
+      <workItem from="1654108869976" duration="2562000" />
+      <workItem from="1654189207055" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="add frontend">
       <created>1652985056536</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653418443395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete tasks lesson 4">
+      <created>1653920284085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653920284085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,9 +142,10 @@
     <MESSAGE value="add frontend" />
     <MESSAGE value="complete tasks lesson 2" />
     <MESSAGE value="complete tasks lesson 3 expect #6 *" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete tasks lesson 3 expect #6 *" />
+    <MESSAGE value="complete tasks lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete tasks lesson 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TODO_service$TODO_run.coverage" NAME="TODO_run Coverage Results" MODIFIED="1653919641023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TODO_service$TODO_run.coverage" NAME="TODO_run Coverage Results" MODIFIED="1654196899382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
