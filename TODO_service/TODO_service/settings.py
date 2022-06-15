@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Others
-    "corsheaders",
+    'corsheaders',
     'rest_framework',
     'django_filters',
     'rest_framework.authtoken',
@@ -136,9 +136,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
 ]
 
-# ACCESS_CONTROL_ALLOW_ORIGIN = [
-#     'http://localhost:3000',
-# ]
+ACCESS_CONTROL_ALLOW_ORIGIN = [
+    'http://localhost:3000',
+]
 
 # CORS_ALLOW_ALL_ORIGINS = True
 #
@@ -156,7 +156,7 @@ REST_FRAMEWORK = {
     # 'PAGE_SIZE': 100,
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',],
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
